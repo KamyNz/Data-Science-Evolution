@@ -21,5 +21,6 @@
 ## Additional resources in Spanish and English
 
 [Additional resources in Spanish and English](https://docs.google.com/document/d/1miyUhPa3gsuCBLMsBxgqx5DrolaX2UKs-BUIEFEFUP0/edit)
+
 [Essential Python Tools](https://books.agiliq.com/projects/essential-python-tools/en/latest/)
 
