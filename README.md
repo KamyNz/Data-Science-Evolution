@@ -2,11 +2,8 @@
 >This document explains the evolution of different skills that I have been developing for a data-scientist role. 
 
 ## Content Table
-* [Descripción de estructura de repositorio](#descripción-estructura)
-* [Que hay en structure_example ?](#structure_example)
-* [Que hay en example_R ?](#example_R)
-* [Que hay en example_Python ?](#example_Python)
-* [Uso de Recursos Adicionales](#recursos-adicionales)
+* [Description of each folder](#description-each-folder)
+* [Additional resources in Spanish and English](#additional-resources-Spanish-English)
 
 ## Description of each folder
 
