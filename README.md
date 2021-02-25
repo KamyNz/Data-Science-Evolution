@@ -10,12 +10,34 @@
 **Note:** Work in progress
 
 ```
+.
+├── README.md
 |
-└───structure_example/   
-│   
-└───example_R/
-│   
-└───example_Python/
+├── 00-Git-Unix
+│   
+├── 01-SQL_-_NO_SQL
+│   
+├── 02-Python
+│   
+├── 03-Pandas-Dask
+│   
+├── 04-Data_Structures
+│   
+├── 05-Prob&Stats
+│   
+├── 06-ML_Algorithms
+│  
+├── 07-Parallel_Computing
+|
+├── 08-REST_API
+|
+├── 09-Kubernets_+_Airflow
+|
+├── 10-UnitTest_&_IntegrationTests
+|
+├── data
+│ 
+└── docs
 ```
 
 ## Additional resources in Spanish and English
