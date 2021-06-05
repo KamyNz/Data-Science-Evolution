@@ -44,5 +44,9 @@
 
 [Additional resources in Spanish and English](https://docs.google.com/document/d/1miyUhPa3gsuCBLMsBxgqx5DrolaX2UKs-BUIEFEFUP0/edit)
 
+[Own Data Science Articles that have helped me](https://www.notion.so/41521ededd914c4bb2cbe9479acf9867?v=0adb8517b2fb4afbbe665da701e0413a)
+
 [Essential Python Tools](https://books.agiliq.com/projects/essential-python-tools/en/latest/)
+
+
 
