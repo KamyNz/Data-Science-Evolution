@@ -1,5 +1,45 @@
+-- Weather Observation Station 14
+SELECT ROUND(MAX(LAT_N),4) AS max_north
+FROM STATION
+WHERE LAT_N < 137.2345
+
+-- Weather Observation Station 13
+SELECT ROUND(SUM(LAT_N),4) AS north
+FROM STATION
+WHERE LAT_N > 38.7880 AND LAT_N < 137.2345
+
+-- Usando SUM AND ROUND
+SELECT ROUND(SUM(LAT_N),2), ROUND(SUM(LONG_W),2)
+FROM STATION
+
+-- Usando GROUP BY COLUMN NUMBER (1), GROUP BY AND ORDER BY
+SELECT (SALARY * MONTHS) AS EARNINGS, COUNT(*)
+FROM EMPLOYEE
+GROUP BY 1 -- UNTIL HERE WORKS BECAUSE IT NEEDS TO BE GROUPED BY A VARIABLE
+--IN ORDER TO WORK
+ORDER BY EARNINGS DESC
+LIMIT 1;
+
+-- Usando CAST or REPLACE to get values to make calculations
+SELECT CEIL(AVG(SALARY) - AVG(REPLACE(SALARY,'0','')))
+FROM EMPLOYEES;
+
+-- Aggregation with where
+SELECT SUM(POPULATION)
+FROM CITY
+WHERE COUNTRYCODE='JPN'
+
+-- Using Round and AVG
+SELECT ROUND(AVG(POPULATION))
+FROM CITY
+
+-- Agregation
+SELECT AVERAGE(POPULATION)
+FROM CITY
+WHERE DISTRICT='California'
+
 -- Advanced Select - Occupations
---https://www.hackerrank.com/challenges/occupations/forum
+--https://www.hackerrank.com/chasllenges/occupations/forum
 set @r1=0, @r2=0, @r3=0, @r4=0;
 select min(Doctor), min(Professor), min(Singer), min(Actor)
 from(
