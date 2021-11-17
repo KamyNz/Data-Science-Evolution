@@ -8,8 +8,6 @@ Notas:
   -O(n log n): Logaritimico lineal
   -O(n**2): Ojo, ese es n a la potencia
   -O(2**n): Ojo, esto es 2 a la N potencia, no a la N potencia.
-
-
 """
 
 """

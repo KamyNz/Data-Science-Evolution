@@ -5,7 +5,7 @@ def buble_sort(lista):
 
 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
   size_list = int(input('De que tamano es tu lista? '))
   objective= int(input('Que numero quieres encontrar? '))
 
